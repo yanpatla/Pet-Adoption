@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+ 
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;  
+}
+
+
+select,
+input:focus {
+  outline: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+
+.back {
+  background-color: #95c2de;
+}
+
+.mainbox {
+  background-color: #95c2de;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+  .err {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:absolute;
+    left: 20%;
+    top: 8%;
+  }
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+ .err2 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:absolute;
+    left: 68%;
+    top: 8%;
+  }
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position:absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+  }
+
+.lin {
+  text-decoration: none;
+  color: white;
+}
+
+.lin:hover {
+  text-decoration: underline;
+}
